@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: rgb(240, 209, 170);
+    background-repeat: no-repeat;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.logo img{
+    width:80px;
+    padding:0 8px ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.ic img{
+    border: 2px solid white;
+    font-size: 60px;
+    border-radius: 30px;
+    width: 50px;
+    margin: 10px 5px;
+}
+.ic{
+    margin: 0px 8px;
+    
+}
+.ic img:hover{
+    cursor: pointer;
+    width: 48px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image:url('background.jpg')
+}
+ 
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#bar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 160%;
+    color: black;
+    font-weight: bolder;
+    margin: 18px 10px;
+    font-size: 30px;
+    padding: 6px;
+    justify-content: space-between;
+    border-radius: 34px;
+    align-items: center;
+    
+}
+.songitem img{
+    width: 60px;
+    border-radius: 34px;
+    margin: 0 23px;
+}
+.songitemcontainer{
+    margin-top: 74px;
+}
+.timespan{
+    margin: 20px 0px;
+}
+@media only screen and (max-width: 800px) {
+    .songitem {
+      width: 100%;
+      height: 40px;
+      font-size: 20px;
+    }
+    .songitem img{
+        width: 40px;
+        border-radius: 34px;
+        margin: 0 23px;
+    }
+    .icon img{
+        border: 2px solid white;
+        font-size: 60px;
+        border-radius: 30px;
+        width: 30px;
+        margin: 10px 5px;
+        height: 25px;
+        justify-content: space-around;
+    }
+    .songinfo{
+        display: none;
+    }
+    .songinfo img{
+        opacity: 0;
+        display: none;
+    }
+    .songlist1{
+        border: none;
+        width: 0;
+    }
+  }
+.icon img{
+    border: 2px solid white;
+    font-size: 60px;
+    border-radius: 30px;
+    width: 40px;
+    margin: 10px 5px;
+    height: 35px;
+    justify-content: space-around;
+}
+.icon img:hover{
+    cursor: pointer;
+    width: 38px;
+}
+.songinfo{
+    position: absolute;
+    left: 0vw;
+    font-size: 30px;
+    color: rgb(232, 219, 124);
+    font-family: 'Nunito', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.about{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.about:hover{
+    cursor: pointer;
+}
+.songlist1{
+    border: 2px solid  rgb(35, 197, 73);
+    width: 35%;
+    border-radius: 34px;
+    margin-left: 50px;
+}
+.hd{
+   display: flex;
+   justify-content:flex-start;
+   margin: 35px 18px;
+   font-size: 50px;
+   font-family: 'Pacifico', 'cursive';
+   color: rgb(123, 207, 139);
+}
+.hd2{
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    display: flex;
+    margin-top: 15%;
+    margin-left: 5px;
+    color: rgb(157, 182, 163);
+}
+.hd3{
+    display: flex;
+    justify-content:flex-start;
+    margin: 35px 20%;
+    font-size: 50px;
+    font-family: 'Pacifico', 'cursive';
+    color: rgb(123, 207, 139);
+ }
+ .about1{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.about1:hover{
+    cursor: pointer;
+}
